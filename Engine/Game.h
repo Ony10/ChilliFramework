@@ -36,11 +36,22 @@ private:
 	void UpdateModel();
 	/********************************/
 	/*  User Functions              */
+	void DrawFace(int x, int y);
+	void DrawPoo(int x, int y);
+	int ClampScreenX(int x, int width);
+	int ClampScreenY(int x, int height);
 	/********************************/
 private:
 	MainWindow& wnd;
 	Graphics gfx;
 	/********************************/
 	/*  User Variables              */
+	int dudeX = 400;
+	int dudeY = 300;
+	int dudeWidth = 20;
+	int dudeHeight = 20;
+	int poo0X = 300;
+	int poo0Y = 150;
+	bool poo0IsEaten = false;
 	/********************************/
 };
