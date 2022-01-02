@@ -39,6 +39,7 @@ void Game::Go()
 void Game::UpdateModel()
 {
 	//First Commit
+	//Secondd
 }
 
 void Game::ComposeFrame()
